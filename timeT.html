@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+	<h1 align="center" style=" text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 9px rgb(167, 11, 76);">TIME TABLE</h1>
+	<table border="6" cellspacing="0" align="center">
+		<caption>move the mouse on the text for abbreviation</caption>
+		<tr>
+			<td id="kk" align="center" height="50" width="100"><br>
+				<b>Day/Period</b></br>
+			</td>
+			<td id="s1"  align="center" height="50" width="100">
+				<b>I<br>9:30-10:20</b>
+			</td>
+			<td id="s1"  align="center" height="50" width="100">
+				<b>II<br>10:20-11:10</b>
+			</td>
+			<td id="s1"  align="center" height="50" width="100">
+				<b>III<br>11:10-12:00</b>
+			</td>
+			<td id="s1"  align="center" height="50" width="100">
+				<b>12:00-12:40</b>
+			</td>
+			<td id="s1" align="center" height="50" width="100">
+				<b>IV<br>12:40-1:30</b>
+			</td>
+			<td id="s1" align="center" height="50" width="100">
+				<b>V<br>1:30-2:20</b>
+			</td>
+			<td id="s1" align="center" height="50" width="100">
+				<b>VI<br>2:20-3:10</b>
+			</td>
+			<td id="s1" align="center" height="50" width="100">
+				<b>VII<br>3:10-4:00</b>
+			</td>
+		</tr>
+		<tr>
+			<td id="s2" align="center" height="50"><b>Monday</b></td>
+			<td align="center" height="50" class="tooltip">Eng <span class="tooltiptext">English</span></td>
+			<td align="center" height="50" class="tooltip">Mat <span class="tooltiptext">Mathematics</span></td>
+			<td align="center" height="50" class="tooltip">Che <span class="tooltiptext">Chemistry</span></td>
+			<td rowspan="6" align="center" height="50">
+				<h2>L<br>U<br>N<br>C<br>H</h2>
+			</td>
+			<td colspan="3" align="center" height="50" class="tooltip">LAB <span class="tooltiptext">Chemistry lab</span></td>
+			<td align="center" height="50" class="tooltip">Phy <span class="tooltiptext">Physics</span></td>
+		</tr>
+		<tr>
+			<td id="s2" align="center" height="50"><b>Tuesday</b></td>
+			<td colspan="3" align="center" height="50" class="tooltip">LAB <span class="tooltiptext">Physics lab</span></td>
+			<td align="center" height="50" class="tooltip">Eng <span class="tooltiptext">English</span></td>
+			<td align="center" height="50" class="tooltip">Che <span class="tooltiptext">Chemistry</span></td>
+			<td align="center" height="50" class="tooltip">Mat <span class="tooltiptext">Mathematics</span></td>
+			<td align="center" height="50">SPORTS</td>
+		</tr>
+		<tr>
+			<td id="s2" align="center" height="50"><b>Wednesday</b></td>
+			<td align="center" height="50" class="tooltip">Mat <span class="tooltiptext">Mathematics</span></td>
+			<td align="center" height="50" class="tooltip">Phy <span class="tooltiptext">Physics</span></td>
+			<td align="center" height="50" class="tooltip">Eng <span class="tooltiptext">English</span></td>
+			<td align="center" height="50" class="tooltip">Che <span class="tooltiptext">Chemistry</span></td>
+			<td colspan="3" align="center" height="50" class="tooltip">LIBRARY <span class="tooltiptext">Reading time</span></td>
+		</tr>
+		<tr>
+			<td id="s2" align="center" height="50"><b>Thursday</b></td>
+			<td align="center" height="50" class="tooltip">Phy <span class="tooltiptext">Physics</span></td>
+			<td align="center" height="50" class="tooltip">Eng <span class="tooltiptext">English</span></td>
+			<td align="center" height="50" class="tooltip">Che <span class="tooltiptext">Chemistry</span></td>
+			<td colspan="3" align="center" height="50" class="tooltip">LAB <span class="tooltiptext">Chemistry lab</span></td>
+			<td align="center" height="50" class="tooltip">Mat <span class="tooltiptext">Mathematics</span></td>
+		</tr>
+		<tr>
+			<td id="s2" align="center" height="50"><b>Friday</b></td>
+			<td colspan="3" align="center" height="50" class="tooltip">LAB <span class="tooltiptext">Physics lab</span></td>
+			<td align="center" height="50" class="tooltip">Mat <span class="tooltiptext">Mathematics</span></td>
+			<td align="center" height="50" class="tooltip">Che <span class="tooltiptext">Chemistry</span></td>
+			<td align="center" height="50" class="tooltip">Eng <span class="tooltiptext">English</span></td>
+			<td align="center" height="50" class="tooltip">Phy <span class="tooltiptext">Physics</span></td>
+		</tr>
+		<tr>
+			<td id="s2" align="center" height="50"><b>Saturday</b></td>
+			<td align="center" height="50" class="tooltip">Eng <span class="tooltiptext">English</span></td>
+			<td align="center" height="50" class="tooltip">Che <span class="tooltiptext">Chemistry</span></td>
+			<td align="center" height="50" class="tooltip">Mat <span class="tooltiptext">Mathematics</span></td>
+			<td colspan="3" align="center" height="50" class="tooltip">SEMINAR 
+                <span class="tooltiptext">Assigned by teachers</span></td>
+			<td align="center" height="50">SPORTS</td>
+		</tr>
+	</table>
+    <style>
+        td:hover{
+            transform: scale(1,1);
+            opacity: 1;
+            transition: background-color .3s;
+            background-color: rgb(151, 215, 239);
+            
+        }
+        #s1:hover{
+            background-color: rgb(241, 64, 64);
+            transform: scale(1,1);
+            transition: background-color .3s;
+            opacity: 1;
+
+        }
+        #s2:hover{
+            background-color: rgb(117, 216, 36);
+            transform: scale(1,1);
+            opacity: 1;
+            transition: background-color .3s;
+
+        }
+
+        #kk:hover{
+          
+          background-color: red; /* For browsers that do not support gradients */
+          background-image: linear-gradient(red ,yellow,green);
+          transition: background-color .3s;
+          
+    
+        }
+
+        .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 190px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+  
+        position: absolute;
+        z-index: 1;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -60px;
+        }
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+        </style>
+
+</body>
+
+</html>
