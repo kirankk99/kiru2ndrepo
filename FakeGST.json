@@ -1,4 +1,4 @@
-const gstDetails = {
+{
   Version: "1.1",
   TranDtls: {
     TaxSch: "GST",
@@ -178,4 +178,4 @@ const gstDetails = {
   },
 };
 
-export default gstDetails;
+
