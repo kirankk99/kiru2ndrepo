@@ -1,4 +1,4 @@
-[{
+{
   Version: "1.1",
   TranDtls: {
     TaxSch: "GST",
@@ -177,5 +177,5 @@
     TransMode: "1",
   },
 }
-]
+
 
